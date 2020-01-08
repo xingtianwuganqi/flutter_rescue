@@ -23,6 +23,10 @@ class tabbarState extends State<Tabbar> {
     // TODO: implement initState
     super.initState();
     pages.add(detailController());
+    pages.add(ChartController());
+    pages.add(AddController());
+    pages.add(CommunityController());
+    pages.add(MineController());
 
   }
 
